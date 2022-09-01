@@ -19,7 +19,7 @@ const log = function(...args) {
     process.stdin.pause();
 };
 
-async function ftfixer() {
+async function wefix() {
     if (!params[0] || /^(-h|--help)$/.test(params[0]))
         return help();
 
@@ -84,7 +84,7 @@ function recover(filepath) {
 
 function help() {
     const bin = require('../help');
-    const usage = 'Usage: ftfixer [options]';
+    const usage = 'Usage: WEFix [options]';
     
     console.log(usage);
     console.log('Options:');
@@ -96,4 +96,4 @@ function help() {
 
 
 
-ftfixer();
+wefix();

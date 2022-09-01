@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "node ./bin/ftfixer.js ./test/hello.js",
+    "test": "node ./bin/wefix.js ./test/hello.js",
     "git-push": "git add . && git commit -m \"regular update\" && git push origin",
     "deploy": "npm version patch && npm publish",
     "minify": "minify ./lib/mutationObserver.js > ./lib/mutationObserver.min.js"
@@ -27,15 +27,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NJUaaron/UI-Flaky-Test-Fixer.git"
+    "url": "git+https://github.com/WEFix-tech/WEFix.git"
   },
   "bugs": {
-    "url": "https://github.com/NJUaaron/UI-Flaky-Test-Fixer/issues"
+    "url": "https://github.com/WEFix-tech/WEFix/issues"
   },
-  "homepage": "https://github.com/NJUaaron/UI-Flaky-Test-Fixer#readme",
-  "description": "Auto code fixer for UI-based flaky test",
+  "homepage": "https://github.com/WEFix-tech/WEFix#readme",
+  "description": "Web E2E Flakiness Fixer",
   "bin": {
-    "ftfixer": "bin/ftfixer.js"
+    "wefix": "bin/wefix.js"
   },
   "engines": {
     "node": ">=14"
