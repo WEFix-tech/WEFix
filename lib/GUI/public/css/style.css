@@ -1,0 +1,35 @@
+body {
+    background-color: #e4f3f3;
+}
+
+.small-font {
+    font-size: 0.7rem;
+}
+
+.accordion-item {
+    margin: 0.3rem;
+}
+
+.accordion-button {
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-size: 0.7rem;
+}
+
+.accordion-body {
+    padding: 10px;
+}
+
+#statistics {
+    width:250px;
+    background-color: #e4f3f3;
+    position:fixed;
+    right:30px;
+    top:80px;
+    z-index: 3;
+}
+
+#record_table {
+    padding-right: 250px;
+}

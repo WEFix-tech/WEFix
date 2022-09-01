@@ -1,0 +1,8 @@
+{
+    "-h, --help                 ": "display this help and exit",
+    "-v, --version              ": "display version and exit",
+    "-p, --panel, ui            ": "open visaul panel",
+    "-i, --instrument <file>    ": "instrument file or folder",
+    "-f, --fix                  ": "auto fix based on log",
+    "-r, --recover              ": "delete instrumented file and recover raw file"
+}

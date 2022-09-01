@@ -1,0 +1,46 @@
+{
+  "name": "@aaronxyliu/ftfixer",
+  "version": "1.0.34",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./bin/ftfixer.js ./test/hello.js",
+    "git-push": "git add . && git commit -m \"regular update\" && git push origin",
+    "deploy": "npm version patch && npm publish",
+    "minify": "minify ./lib/mutationObserver.js > ./lib/mutationObserver.min.js"
+  },
+  "keywords": [
+    "flaky test",
+    "e2e test",
+    "UI-based test",
+    "selenium",
+    "auto fix"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "minify": "^7.1.0",
+    "nodemon": "^2.0.15",
+    "selenium-webdriver": "^4.0.0-rc-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NJUaaron/UI-Flaky-Test-Fixer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NJUaaron/UI-Flaky-Test-Fixer/issues"
+  },
+  "homepage": "https://github.com/NJUaaron/UI-Flaky-Test-Fixer#readme",
+  "description": "Auto code fixer for UI-based flaky test",
+  "bin": {
+    "ftfixer": "bin/ftfixer.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
