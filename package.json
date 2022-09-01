@@ -1,6 +1,6 @@
 {
   "name": "@wefix-tech/wefix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "node ./bin/wefix.js ./test/hello.js",
