@@ -1,6 +1,6 @@
 {
-  "name": "@aaronxyliu/ftfixer",
-  "version": "1.0.34",
+  "name": "@wefix-tech/wefix",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "node ./bin/ftfixer.js ./test/hello.js",
