@@ -1,4 +1,5 @@
 # WEFix
+[![DOI](https://zenodo.org/badge/531338443.svg)](https://zenodo.org/badge/latestdoi/531338443)
 
 ## For Users
 This is a tool to automatically fix web e2e flaky test. To use this tool, your test must be written in JavaScript using Selenium or Cypress for end-to-end testing purpose. You can find in [example](https://github.com/WEFix-tech/WEFix/tree/main/example) folder about how a typical test code looks like, and how this tool actually work.
